@@ -1,79 +1,26 @@
-{
-	"meta": {
-		"title": "YYsuni",
-		"description": "YYsuni 的个人博客，记录前端开发、探索、笔记。前端 UI 更新代码仓库。",
-		"username": "Suni"
-	},
-	"theme": {
-		"colorBrand": "#2fcbe7",
-		"colorPrimary": "#5B423F",
-		"colorSecondary": "#8b7667",
-		"colorBrandSecondary": "#eec25e",
-		"colorBg": "#d4e8f3",
-		"colorBorder": "#ffffff",
-		"colorCard": "#ffffff99",
-		"colorArticle": "#ffffffcc"
-	},
-	"backgroundColors": [
-		"#f7da3987",
-		"#8fdbe9",
-		"#fffef8"
-	],
-	"artImages": [
-		{
-			"id": "cat",
-			"url": "/images/art/cat.png"
-		},
-		{
-			"id": "a46372ff45bc5524",
-			"url": "/images/art/a46372ff45bc5524.jpg"
-		},
-		{
-			"id": "1c7b726fe720679b",
-			"url": "/images/art/1c7b726fe720679b.jpg"
-		}
-	],
-	"currentArtImageId": "1c7b726fe720679b",
-	"backgroundImages": [
-		{
-			"id": "",
-			"url": ""
-		}
-	],
-	"currentBackgroundImageId": "",
-	"socialButtons": [
-		{
-			"id": "github",
-			"type": "github",
-			"value": "https://github.com/yysuni",
-			"label": "Github",
-			"order": 3
-		},
-		{
-			"id": "juejin",
-			"type": "juejin",
-			"value": "https://juejin.cn/user/2427311675422382",
-			"label": "稀土掘金",
-			"order": 2
-		},
-		{
-			"id": "email",
-			"type": "email",
-			"value": "yysuni1001@gmail.com",
-			"label": "",
-			"order": 1
-		}
-	],
-	"clockShowSeconds": false,
-	"summaryInContent": false,
-	"isCachePem": false,
-	"hideEditButton": false,
-	"enableCategories": true,
-	"currentHatIndex": 3,
-	"hatFlipped": false,
-	"enableChristmas": false,
-	"beian": {
-		"text": "",
-		"link": ""
-	}
+// 站点基础全局配置
+export const siteConfig = {
+  // 网站名称
+  title: "个人金手指博客",
+  // 管理员后台登录密码
+  adminPwd: "KING",
+  // 网站简介
+  description: "向内沉淀，自我生长，专属私人成长存档自留地",
+  // 首页五大专属天赋（固定置顶展示）
+  talentList: [
+    "低锚点心流天赋：内心选定方向，即可快速进入深度专注心流状态，沉浸门槛极低",
+    "向内情绪敏感天赋：仅对自身情绪敏锐觉察，清醒自知，情绪自洽度极高",
+    "极致独处自洽天赋：可长期狭小空间独处、数月不主动维系人际，内心安稳无内耗",
+    "听觉沉浸疗愈天赋：常年音乐相伴，构筑专属精神结界，自带天然情绪自愈力",
+    "静默深度沉淀天赋：偏爱安静向内扎根，长期深度阅读沉淀，持续自我塑造成长"
+  ],
+  // 六大固定核心板块（永久固定，不增不减）
+  menus: [
+    { id: 1, name: "时光情绪纪事馆", desc: "时间轨迹+幸福能量双线合并归档" },
+    { id: 2, name: "体魄体能系统", desc: "健身训练、身体状态、运动恢复全记录" },
+    { id: 3, name: "智慧藏书系统", desc: "4400小时阅读存档、书籍感悟、认知沉淀" },
+    { id: 4, name: "精神意识海系统", desc: "深度思考、内心随笔、自我复盘与观念提炼" },
+    { id: 5, name: "修身习艺成长馆", desc: "剑花、拳击、书法、中级会计备考修习记录" },
+    { id: 6, name: "生活文娱印记馆", desc: "音乐、饮茶、积木、游戏日常文娱存档" }
+  ]
 }
